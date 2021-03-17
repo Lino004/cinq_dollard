@@ -1,0 +1,177 @@
+.bg-primary {
+  background-color: #248fc7;
+  color: white;
+}
+.bg-primary-light {
+  background-color: #edf5fa;
+  color: #248fc7;
+}
+.bg-secondary {
+  background-color: #2faed1;
+  color: white;
+}
+.bg-tertiary {
+  background-color: #ff7e7e;
+  color: white;
+}
+.bg-red {
+  background-color: #c1272d;
+  color: white;
+}
+.text-primary {
+  color: #248fc7;
+}
+.text-tertiary {
+  color: #ff7e7e;
+}
+.text-blue-1 {
+  color: #05486a;
+}
+.text-red {
+  color: #c1272d;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.is-height-100p {
+  height: 100%;
+}
+img.is-rounded.is-avatar {
+  border: 7px solid;
+  object-fit: cover;
+  height: 128px;
+  width: 128px;
+}
+.age {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  line-height: 1;
+  text-align: center;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.is-btn-size-40 {
+  height: 40px !important;
+  width: 40px !important;
+}
+.box-shadow-1 {
+  box-shadow: 0 5px 5px #00000029;
+}
+.bande-bottom {
+  border: 1px solid #248fc7;
+  border-top: none;
+  height: 40px;
+}
+.bande-top {
+  border: 1px solid #248fc7;
+  border-bottom: none;
+  height: 40px;
+}
+.bande-left {
+  border: 1px solid #248fc7;
+  border-right: none;
+  width: 40px;
+  height: calc(100% - 80px);
+}
+.bande-right {
+  border: 1px solid #248fc7;
+  border-left: none;
+  width: 40px;
+  height: calc(100% - 80px);
+}
+.card-info-1 {
+  border-top: 1px solid #248fc7;
+  border-left: 1px solid #248fc7;
+  border-bottom: 1px solid #ff7e7e;
+  border-right: 1px solid #ff7e7e;
+  border-radius: 0;
+}
+.card-info-2 {
+  border-top: 1px solid #248fc7;
+  border-right: 1px solid #248fc7;
+  border-bottom: 1px solid #ff7e7e;
+  border-left: 1px solid #ff7e7e;
+  border-radius: 0;
+}
+.card-info-3 {
+  border-bottom: 1px solid #248fc7;
+  border-left: 1px solid #248fc7;
+  border-top: 1px solid #ff7e7e;
+  border-right: 1px solid #ff7e7e;
+  border-radius: 0;
+}
+.card-info-4 {
+  border-bottom: 1px solid #248fc7;
+  border-right: 1px solid #248fc7;
+  border-top: 1px solid #ff7e7e;
+  border-left: 1px solid #ff7e7e;
+  border-radius: 0;
+}
+.testimonials {
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  color: white;
+  background:
+    linear-gradient(0deg, #44b6d5d1, #44b6d5d1),
+    url('https://www.finance-investissement.com/wp-content/uploads/sites/2/2018/11/stylephotographs_123rf_15783995_custom.jpg')
+    no-repeat;
+  background-size: cover;
+}
+.tabs.is-toggle li.is-active a{
+  background-color: #248fc7;
+  border-color: #248fc7;
+}
+.tabs.is-toggle li:first-child a {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.tabs.is-toggle li:last-child a {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.tabs {
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tabs.is-toggle li a{
+  border-color: #248fc7;
+  color: #248fc7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.media-card {
+  position: relative;
+}
+.media-card .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff9e;
+}
+.media-card span {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+}
+.icon-footer {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #248fc7;
+  background-color: #edf5fa;
+}
+.is-border-radius-0 {
+  border-radius: 0;
+}
